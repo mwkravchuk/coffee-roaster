@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inputGroup input, .inputGroup textarea {
+  font-size: 1rem;
+  padding: .5em;
+  background-color: var(--light-color);
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 1px var(--background-color-hover);
+}
+
+.inputGroup input:focus, .inputGroup textarea:focus {
+  box-shadow: 0 0 0 1px var(--dark-color);
+  border-bottom: none;
+}
+
+.inputGroup textarea {
+  height: 125px;
+}

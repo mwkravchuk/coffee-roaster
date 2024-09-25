@@ -1,0 +1,32 @@
+.screenContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1250px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper > div {
+  flex: 1;
+}
+
+.image {
+  max-width: 250px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.info > * {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 3em;
+}

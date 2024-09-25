@@ -1,0 +1,43 @@
+/* Header.module.css */
+
+header {
+  min-height: 100px;
+  background-color: var(--background-color);
+  margin: 50px 50px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoWrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 150px;
+}
+
+.list {
+  display: flex;
+}
+
+.headerItem {
+  margin-right: 24px;
+}
+
+.menuItem {
+  margin-left: 24px;
+}
+
+.menuItem:hover {
+  color: var(--dark-color-hover);
+}
+
+@media (max-width: 758px) {
+  .list {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,47 @@
+.itemWrapper {
+  display: flex;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: solid var(--light-accent);
+}
+
+.imageWrapper {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.infoWrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoWrapper > * {
+  margin-bottom: 10px;
+}
+
+.itemName {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.itemQuantity {
+  margin: 0 15px;
+}
+
+.quantityWrapper {
+  display: flex;
+  border: solid;
+  padding: 0px 10px;
+  align-self: flex-start;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

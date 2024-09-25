@@ -1,0 +1,16 @@
+.screenContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+

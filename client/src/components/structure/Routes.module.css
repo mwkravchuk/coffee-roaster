@@ -1,0 +1,6 @@
+.routes {
+  flex: 1;
+  background-color: var(--background-color);
+  color: var(--dark-color);
+  margin: 50px 0 200px;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 80%;
+  max-width: 200px;  
+  margin: 0 auto 1em;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 1.15em;
+}
+
+.notes {
+  margin-bottom: .6em;
+}

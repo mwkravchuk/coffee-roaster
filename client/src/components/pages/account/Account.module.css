@@ -1,0 +1,15 @@
+.screenContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.accountContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .5em;
+}

@@ -1,0 +1,7 @@
+.icon {
+  fill: var(--dark-color);
+}
+
+.icon:hover {
+  fill: var(--dark-color-hover);
+}

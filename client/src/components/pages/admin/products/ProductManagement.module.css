@@ -1,0 +1,23 @@
+.screenContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.managementContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.managementTitle {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links > * {
+  margin-bottom: 10px;
+}
